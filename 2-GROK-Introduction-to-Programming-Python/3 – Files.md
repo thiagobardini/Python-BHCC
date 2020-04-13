@@ -455,7 +455,7 @@ colour was found in the book.
  - :earth_americas: A palavra de entrada fornecida sempre estará em letras minúsculas, mas seu programa deve corresponder de maneira que não diferencia maiúsculas de minúsculas. Por exemplo, dado o seguinte arquivo book.txt:
  - :earth_americas: A pontuação sempre será fornecida como uma palavra separada, para que você não precise fazer nada de especial para justificá-la.
  
-:checkered_flag: - **CHALLENGE** -> my solution for the problem - Input:
+- :checkered_flag: INPUT: **MY CHALLENGE** -> my solution for the problem:
 ```python
 word = input("Word to look for: ")
 w = False
@@ -493,3 +493,83 @@ else:
  
  
  
+ ## :checkered_flag: - **CHALLENGE**. 
+
+### 3.3 - Waiter! There's an aardvark in my file!
+ 
+<p>There are aardvarks on the loose! We need you to check whether there are any aardvarks hidden in a text file.</p>
+
+<p>To start, your program should read in a file input.txt, one line at a time, numbering the lines from 1. You should check each line to see whether the letters in the line can be used to make the word "aardvark". Uppercase letters can be used as well. So, if the file input.txt contains this:</p>
+
+<p> :earth_americas: Existem Aardvarks à solta! Precisamos que você verifique se há algum Aardvarks oculto em um arquivo de texto. </p>
+
+<p> :earth_americas: Para iniciar, seu programa deve ler um arquivo input.txt, uma linha de cada vez, numerando as linhas de 1. Você deve verificar cada linha para ver se as letras da linha podem ser usadas para formar a palavra " aardvark ". Letras maiúsculas também podem ser usadas. Portanto, se o arquivo input.txt contiver isso: </p>
+
+- File name:  **input.txt**:
+```
+No aardv*rks here!
+Only armadillos and anteaters.
+Animals are run down: very awful road kill.
+I prefer a quick guacamole made from avocados.
+```
+- Output: then your program should work like this:
+ ```
+Aardvark on line 3
+Aardvark on line 4
+```
+- :checkered_flag: INPUT: **MY CHALLENGE** -> my solution for the problem:
+````python
+li = 0
+for line in open('input.txt'):
+  li += 1
+  line = line.lower()
+  if line.count('a') >= 3 and line.count('r') >= 2 and line.count('d') >=1 and line.count('k') >= 1:
+    print('Aardvark on line', li)
+````
+
+- :shipit: INPUT - GROK solution #1:
+```python
+for n, line in enumerate(open('input.txt')):
+  letters = list('aardvark')
+  for c in line.lower():
+    if c in letters:
+      letters.remove(c)
+  if not letters:
+    print('Aardvark on line', n + 1)
+```
+- :shipit: INPUT - GROK solution #2:
+```python
+linenum = 0
+for line in open('input.txt'):
+  linenum += 1
+  line = line.lower()
+  if line.count('a') >= 3 and line.count('r') >= 2 and line.count('d') >= 1 and line.count('v') >= 1 and line.count('k') >= 1:
+    print('Aardvark on line', linenum)
+```
+- :shipit: INPUT - GROK solution #3:
+```python
+from collections import Counter
+
+target = Counter('aardvark')
+for i, line in enumerate(open('input.txt')):
+  current = Counter(line.lower())
+  for c in target:
+    if current[c] < target[c]:
+      break
+  else:
+    print('Aardvark on line', i + 1)
+```    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
