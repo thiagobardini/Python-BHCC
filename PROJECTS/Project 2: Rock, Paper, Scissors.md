@@ -3,7 +3,7 @@
 
 ## Flowchart
  <p align="center">
-  <img width="460" height="300" src="https://github.com/thiagobardini/Python-BHCC/blob/master/Imagem/Project2-Flowchart.png">
+  <img width="700" height="600" src="https://github.com/thiagobardini/Python-BHCC/blob/master/Imagem/Project2-Flowchart.png">
 </p>
  
 ## Assignment Overview
