@@ -31,7 +31,7 @@ This project requires you to use:
     - The program will announce the beginning of the round and ask the user for his/her weapon choice
     - The two weapons will be compared to determine the winner (or a tie) and the results will be displayed by the program
     - The next round will begin, and the game will continue until the user chooses to quit
-    - The computer will keep score and print the score when the game ends"""
+    - The computer will keep score and print the score when the game ends
 
 
 
