@@ -20,6 +20,7 @@ The objective of Rock, Paper, and Scissors is to defeat your opponent by selecti
  
 ## Program Specifications
 This project requires you to use:
+    
     - input to prompt the user
     - print to print results
     - at least one branching mechanism (if statement)
@@ -27,7 +28,8 @@ This project requires you to use:
     - Boolean logic
  
 <p>Your program will allow a human user to play Rock, Paper, Scissors with the computer.  Each round of the game will have the following structure:</p>
-    - The program will choose a weapon (Rock, Paper, Scissors), but its choice will not be displayed until later so the user doesn’t see it.
+   
+     - The program will choose a weapon (Rock, Paper, Scissors), but its choice will not be displayed until later so the user doesn’t see it.
     - The program will announce the beginning of the round and ask the user for his/her weapon choice
     - The two weapons will be compared to determine the winner (or a tie) and the results will be displayed by the program
     - The next round will begin, and the game will continue until the user chooses to quit
@@ -38,6 +40,7 @@ This project requires you to use:
 <p>The computer should select the weapon most likely to beat the user, based on the user’s previous choice of weapons. For instance, if the user has selected Paper 3 times but Rock and Scissors only 1 time each, the computer should choose Scissors as the weapon most likely to beat Paper, which is the user’s most frequent choice so far. To accomplish this, your program must keep track of how often the user chooses each weapon. Note that you do not need to remember the order in which the weapons were used. Instead, you simply need to keep a count of how many times the user has selected each weapon (Rock, Paper or Scissors). Your program should then use this playing history (the count of how often each weapon has been selected by the user) to determine if the user currently has a preferred weapon; if so, the computer should select the weapon most likely to beat the user’s preferred weapon. During rounds when the user does not have a single preferred weapon, the computer may select any weapon. For instance, if the user has selected Rock and Paper 3 times each and Scissors only 1 time, or if the user has selected each of the weapons an equal number of times, then there is no single weapon that has been used most frequently by the user; in this case the computer may select any of the weapons.</p>
  
 <p>At the beginning of the game, the user should be prompted for his/her input. The valid choices for input are:</p>
+    
     - R or r (Rock)
     - P or p (Paper)
     - S or s (Scissors)
@@ -47,7 +50,7 @@ This project requires you to use:
  
 <p>Your program should remember the game history (whether the user wins, the computer wins, or the round is tied).</p>
  
-- At the end of the game (when the user chooses ‘q’ or ‘Q’), your program should display the following:
+- At the end of the game (when the user chooses ‘q’ or ‘Q’), your program should display the following:    
     - The number of rounds the computer has won
     - The number of rounds the user has won
     - The number of rounds that ended in a tie
