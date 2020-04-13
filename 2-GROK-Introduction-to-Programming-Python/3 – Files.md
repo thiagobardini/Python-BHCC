@@ -170,26 +170,26 @@ drei
 
 <br>
 
-File name:  **orders.txt**:
+- File name:  **orders.txt**:
 ```
 Tomato and cheese melt
 Pumpkin soup
 Chicken and avocado sandwich
 ```
-:checkered_flag: - **CHALLENGE** -> my solution for the problem - Input:
+- :checkered_flag: INPUT: **MY CHALLENGE** -> my solution for the problem:
 ```python
 newfile = 'orders.txt'
 file = open( newfile , 'r' )
 x = file.read()
 print(x.upper(), end = '')
 ```
-:shipit: - GROK solution - Input:
+- :shipit: INPUT - GROK solution #1:
 ```python
 for line in open('orders.txt'):
   print(line.strip().upper())
 ```
 
-Output:
+- Output:
 ```
 TOMATO AND CHEESE MELT
 PUMPKIN SOUP
@@ -342,7 +342,7 @@ A--dog--is--a barker
 
 <br>
 
-File name:  **orders.txt**:
+- File name:  **orders.txt**:
 ```
 My vegetable garden is growing really well!
 WOOF! Let's play catch!
@@ -351,16 +351,14 @@ How is your garden going?
 WOOF! I better chase that possum!
 ```
 
-Your program should create the file fixed.txt that contains:
-
-Output:
+- OUTPUT -> Your program should create the file fixed.txt that contains:
 ```
 My vegetable garden is growing really well!
 The tomatoes and cucumbers are nearly ready to eat.
 How is your garden going?
 ```
 
-:checkered_flag: - **CHALLENGE** -> my solution for the problem - Input:
+- :checkered_flag: INPUT: **MY CHALLENGE** -> my solution for the problem:
 ```python
 file = open("letter.txt", 'r')
 file_out = open("fixed.txt", 'w')
@@ -370,7 +368,7 @@ for line in file:
   else:
     print(line.strip(), file=file_out)
 ```
-:shipit: - GROK solution #1 - Input:
+- :shipit: INPUT - GROK solution #1:
 ```python
 f = open('fixed.txt', 'w')
 for line in open('letter.txt'):
@@ -379,7 +377,7 @@ for line in open('letter.txt'):
 f.close()
 ```
 
-:shipit: - GROK solution #2 - Input:
+- :shipit: INPUT - GROK solution #2:
 ```python
 with open('letter.txt') as fin, open('fixed.txt', 'w') as fout:
   for line in fin:
@@ -387,7 +385,7 @@ with open('letter.txt') as fin, open('fixed.txt', 'w') as fout:
       fout.write(line)
 ```
 
-Output: fixed.txt
+- Output: fixed.txt
 ```
 My vegetable garden is growing really well!
 The tomatoes and cucumbers are nearly ready to eat.
@@ -469,7 +467,7 @@ with open('book.txt','r') as file:
 if w == False:
   print(word + " was not found in the book.")
 ```
-:shipit: - GROK solution #1 - Input:
+- :shipit: INPUT - GROK solution #1:
 ```python
 word = input('Word to look for: ')
 found = False
@@ -482,7 +480,7 @@ if found:
 else:
   print(word, "was not found in the book.")
 ```
- :shipit: - GROK solution #2 - Input:
+- :shipit: INPUT - GROK solution #2:
 ```python
 word = input('Word to look for: ')
 if word in open('book.txt').read().lower().split():
