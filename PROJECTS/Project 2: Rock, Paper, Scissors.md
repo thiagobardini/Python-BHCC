@@ -1,5 +1,6 @@
 ![Image of Yaktocat](https://github.com/thiagobardini/Python-BHCC/blob/master/Imagem/pythonlogo.gif)
 ![Image of Yaktocat](https://github.com/thiagobardini/Python-BHCC/blob/master/Imagem/grokleanringlogo.png)
+
 <hr>
 
 # Project 2: Rock, Paper, Scissors
