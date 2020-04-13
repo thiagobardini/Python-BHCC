@@ -12,10 +12,10 @@ Rock, Paper, Scissors (also known by several other names, see http://en.wikiped
 ## Rules of the Game:
 The objective of Rock, Paper, and Scissors is to defeat your opponent by selecting a weapon that defeats their choice under the following rules:
  
-    - Rock smashes (or blunts) Scissors, so Rock wins
-    - Scissors cut Paper, so Scissors win
-    - Paper covers Rock, so Paper wins
-    - If players choose the same weapon, neither win and the game is played again
+   - Rock smashes (or blunts) Scissors, so Rock wins
+   - Scissors cut Paper, so Scissors win
+   - Paper covers Rock, so Paper wins
+   - If players choose the same weapon, neither win and the game is played again
  
  
 ## Program Specifications
@@ -62,15 +62,15 @@ You must turn in a file called proj02.py – this is your source code solution
  
  
 ## Getting Started
-    1. Do all the standard startup things. Create a new file called proj02.py. Put your comments in at the top, save it.
-    2. Now you need to break the problem down into parts. Read the description and identify the subtasks that need to be solved. For example, one subtask would be to get proper user input. Mark in the empty program, using comments, all the subtasks you need to solve.
-    3. Now address one subtask, getting user input. Do this in stages as well. Can you:
+   1. Do all the standard startup things. Create a new file called proj02.py. Put your comments in at the top, save it.
+   2. Now you need to break the problem down into parts. Read the description and identify the subtasks that need to be solved. For example, one subtask would be to get proper user input. Mark in the empty program, using comments, all the subtasks you need to solve.
+   3. Now address one subtask, getting user input. Do this in stages as well. Can you:
         a. Prompt for and get a choice (a string) from the user?
         b. Once you can do that, can you repeatedly prompt for a character until you see a ‘q’ or ‘Q’ for quit?
         c. Once you can do that, can you check for “legal” character responses from the user, and print an error message when an illegal response is given?
         d. Next, can you check for legal responses that are in both upper and lower case?
         Once you can do all that, move on to the next subtask.
-    4. Remember, save the file and run it all the time! It will make debugging the program easier.
+   4. Remember, save the file and run it all the time! It will make debugging the program easier.
  
  
 > Credit: This project was developed by Michigan State University Professors William Punch and Richard Enbody and is being used under the Creative Commons Attribution-Share Alike 3.0 United States License from the CS1 Python Programming Project Archive.
