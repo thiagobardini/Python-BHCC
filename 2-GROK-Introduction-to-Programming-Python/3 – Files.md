@@ -1,5 +1,5 @@
-![Logo Python](https://github.com/thiagobardini/Python-BHCC/blob/master/imagens/pythonlogo.gif)
-![Logo Python](https://github.com/thiagobardini/Python-BHCC/blob/master/imagens/grokleanringlogo.png)
+![Image of Yaktocat](https://github.com/thiagobardini/Python-BHCC/blob/master/Imagem/pythonlogo.gif)
+![Image of Yaktocat](https://github.com/thiagobardini/Python-BHCC/blob/master/Imagem/grokleanringlogo.png)
 
 <hr>
 
