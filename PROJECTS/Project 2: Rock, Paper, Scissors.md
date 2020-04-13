@@ -48,9 +48,9 @@ This project requires you to use:
  
 <p>At the beginning of each round your program should ask the user for an input. If the user inputs something other than r, R, p, P, s, S, q or Q, the program should detect the invalid entry and ask the user to make another choice.</p>
  
-<p>Your program should remember the game history (whether the user wins, the computer wins, or the round is tied).</p>
- 
-- At the end of the game (when the user chooses ‘q’ or ‘Q’), your program should display the following:    
+Your program should remember the game history (whether the user wins, the computer wins, or the round is tied).
+
+- At the end of the game (when the user chooses `q` or `Q`), your program should display the following:    
 - The number of rounds the computer has won
 - The number of rounds the user has won
 - The number of rounds that ended in a tie
