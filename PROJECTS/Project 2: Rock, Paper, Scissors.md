@@ -11,7 +11,7 @@
 </p>
  
 ## Assignment Overview
-The purpose of this project is to familiarize you with the use of Boolean logic, branching statements and loops. For this assignment, you will create a program that plays the game “Rock, Paper, Scissors.”
+The purpose of this project is to familiarize you with the use of Boolean logic, branching statements and loops. For this assignment, you will create a program that plays the game “Rock, Paper, Scissors”.
  
  
 ## Background
